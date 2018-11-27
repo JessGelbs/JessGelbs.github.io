@@ -36,6 +36,11 @@ h2 {
   border:1px solid black;
 }
 
+a{
+	color: green;
+	text-decoration: none;
+}
+
 h4 {
 	text-align: center;
 	color:aqua;
