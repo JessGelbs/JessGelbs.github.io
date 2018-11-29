@@ -1,0 +1,10 @@
+body {
+	background: linear-gradient(to bottom, black, gray);
+	color: white;
+	text-align: center;
+	font-family: 'Bad Script', cursive;
+}
+
+li{
+	list-style-type: none;
+}

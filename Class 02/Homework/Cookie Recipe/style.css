@@ -1,0 +1,36 @@
+body {
+    background: #c8deec;
+    font-family: 'Cantarell', sans-serif;
+    border: solid;
+    border-color: black;
+}
+img{
+    border: solid;
+    border-color: black;
+}
+h1{
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bolder;
+    font-size:55px;
+}
+h2{
+    color: rgba(51, 155, 224, 0.658);
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 35px;
+    font-weight: thin;
+}
+h3{
+    color: #887;
+    font-family: 'Source Code Pro', monospace;
+    font-style: italic;
+}
+h4{
+    color: #887;
+    font-family: 'Source Code Pro', monospace;
+    font-style: italic;
+}
+a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
