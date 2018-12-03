@@ -25,19 +25,15 @@ h1 {
   	padding-right: 5px;
   	width: 750px;
   	margin: auto;
+
 }
+
 
 h2 {
   text-align: center;
   color: green;
   background:plum;
   border:1px solid black;
-  text-decoration: none;
-}
-
-a {
-	color: green;
-	text-decoration: none;
 }
 
 h4 {
@@ -80,3 +76,4 @@ p {
 }
 
 
+ } 
