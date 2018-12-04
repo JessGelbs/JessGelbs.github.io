@@ -55,22 +55,43 @@ header {
 }
 
 .header--1 {
+  display: flex;
+  justify-content: space-between;
 }
 
 .header--2 {
+  display: flex;
+  align-content: flex-start;
+  align-items: space-around;
 }
 
 .header--2__link {
+  display: flex;
+  align-content: flex-start;
+  align-items: space-between;
 }
 
 .header--3 {
+  display: flex;
+  align-content: flex-end;
+  align-items: flex-end;
+
 }
 
 .header--3__link {
+  display: flex;
+  flex-basis: auto;
+
 }
 
 .header--4 {
+  display: flex;
+  align-content: flex-start;
 }
 
 .header--4__h1 {
+  background: white;
+  color: black;
+  display: flex;
+  align-content: space-between;
 }
