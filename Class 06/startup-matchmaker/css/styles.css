@@ -2,3 +2,132 @@
 font-family: 'Oswald', sans-serif;
 font-family: 'Merriweather', serif;
 font-family: 'Source Sans Pro', sans-serif; */
+body {
+  background: #c6c6c6;
+  margin: max 120px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  background: black;
+  color: yellow;
+  padding: 0 25px;
+  border-bottom: solid yellow 5px;
+  font-family: "Merriweather", serif;
+  font-weight: lighter;
+}
+
+.navigator {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+#navi {
+  margin: 10px;
+}
+
+.tagline {
+    text-align: center;
+    font-family: "Merriweather", serif;
+    font-style: italic;
+}
+
+#taste {
+    color: grey;
+    text-decoration: line-through;
+}
+
+#are {
+    padding-left: 5px;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+    background: url("../img/coworking.jpg");
+    background-position: center;
+    padding: 40px;
+    font-weight: lighter;
+    height: 300px;
+    border: solid lightslategrey 2px;
+}
+
+#match {
+    max-width: 350px;
+    background-color: rgba(255,255,255,.8);
+    border: 1px solid black;
+    box-shadow: 1px 1px 80px black;
+    padding: 30px;
+    font-family: "Soure Sans Pro", sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+h3 {
+    font-family: 'Oswald';
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.create {
+    background: yellow;
+    color: black;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: "Oswald";
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px;
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    background: #eeeeee;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: lighter;
+}
+
+#calloutone {
+    padding: 30px;
+}
+
+#callouttwo {
+    padding: 30px;
+}
+
+#calloutthree {
+    padding: 30px;
+}
+
+.callout {
+    background: #C6C6C6;
+    color: black;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: "Oswald";
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px;
+}
+
+footer {
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    background: black;
+    color: white;
+    padding: 25px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: lighter;
+}
