@@ -22,3 +22,10 @@ console.log(first + last)
 // alternative new way!! es6 string templates
 
 console.log(`Hello my name is ${first} ${last}`)
+
+let hello = document.querySelector('h1');
+
+console.log(hello);
+
+hello.style.color= 'blue';
+hello.innerHTML = 'Hallo World';
