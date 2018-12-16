@@ -1,16 +1,19 @@
+document.querySelector("#click-me").onclick = calSolution;
 
-document.querySelector('#click-me').onclick = solution;
+function calSolution() {
 
-let age = '#age'
-let maxAge = '#max-age'
-let favoriteDrink = '#item'
-let numPerDay = '#num-per-day'
+    let age = '#age';
+    let maxAge = '#max-age';
+    let drink = '#item';
+    let numPerDay = '#num-per-day';
 
-function solution() {
-    
-    let drinksPerYear = favoriteDrink * 365;
+    let drinksPerYear = numPerDay * 365;
     let yearsLeft = maxAge - age;
     let totalDrinks = drinksPerYear * yearsLeft;
 
-    var calculate = document.querySelector()
+    console.log(`${drinksPerYear} * ${yearsLeft}`)
+
+
+    document.querySelector('#solution').innerHTML = totalDrinks;
+    document.querySelector('#item').innerHTML = drink;
 }
