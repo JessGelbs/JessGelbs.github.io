@@ -1,28 +1,24 @@
 <!DOCTYPE html>
 <html>
-      <head>
-            <title>Color Prompt</title>
+  <head>
+    <title>Color Prompt</title>
 
-            <link rel="stylesheet" type="text/css" href="css/normalize.css">
-            <link rel="stylesheet" type="text/css" href="css/style.css">
-      </head>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
 
-      <body>
+  <body>
+    <div id="wrapper">
+      <h1>Specify a Background Color</h1>
 
-            <div id="wrapper">
+      <input id="red" maxlength="3" /> <input id="green" maxlength="3" />
+      <input id="blue" maxlength="3" />
 
-                  <h1>Specify a Background Color</h1>
+      <a id="color-button">Change the Color!</a>
 
-                  <input id="red" maxlength="3">
-                  <input id="green" maxlength="3">
-                  <input id="blue" maxlength="3">
+      <p id="colorful-text">rgb(0,0,0)</p>
+    </div>
 
-                  <a id="color-button">Change the Color!</a>
-
-                  <p id="colorful-text">rgb(0,0,0)</p>
-
-            </div>
-
-            <script type="text/javascript" src="js/project.js"></script>
-      </body>
+    <script type="text/javascript" src="js/project.js"></script>
+  </body>
 </html>
