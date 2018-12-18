@@ -10,3 +10,55 @@
 // - .click()
 // - .html()
 // - .css()
+
+let center = 0
+
+$('#a10').click(function(){
+    const ten = center + 10
+    center = ten
+    $('#out').html(ten);
+})
+
+$('#a20').click(function(){
+    const twenty = center + 20
+    center = twenty
+    $('#out').html(twenty);
+})
+
+$('#a30').click(function(){
+    const thirty = center + 30
+    center = thirty
+    $('#out').html(thirty);
+})
+
+$('#red').click(function(){  
+    $('#out').css('background-color','red');
+})
+
+$('#blue').click(function(){
+    $('#out').css('background-color','blue');
+})
+
+$('#n10').click(function(){
+    const negTen = center - 10
+    center = negTen
+    $('#out').html(negTen);
+})
+
+$('#n20').click(function(){
+    const negTwenty = center - 20
+    center = negTwenty
+    $('#out').html(negTwenty);
+})
+
+$('#n30').click(function(){
+    const negThirty = center - 30
+    center = negThirty
+    $('#out').html(negThirty);
+})
+
+$('#out').click(function(){
+    $('#out').css('background-color', 'white')
+    center = 0
+    $('#out').html(center);
+})
