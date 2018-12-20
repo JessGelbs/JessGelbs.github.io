@@ -1,9 +1,20 @@
-$(document).ready(function () {
-
-	var lights = 'on';
-
-})
-
+$(document).ready(function() {
+  var lights = "on";
+  $("#lightswitch").click(function() {
+    if (lights === "on") {
+      $("#lightswitch").css("background", "white");
+      $("#lightswitch").css("color", "black");
+      $("body").css("background", "black");
+      lights = "off";
+    } else {
+      $("#lightswitch").css("background", "black");
+      $("#lightswitch").css("color", "white");
+      $("body").css("background", "white");
+      lights = "on";
+    }
+    $(this).html(lights);
+  });
+});
 
 // When the lights are on:
 
