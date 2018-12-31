@@ -9,4 +9,23 @@
 
 $(document).ready(function () {
 
+    let click = 0
+
+    $('#clickme').click(function() {
+        click = click + 1
+        $('#click-num').html(click);
+    }
+
+    if (click <= 5) {
+        $('body').css('background-color','red')
+    }
+    else if (click <= 10) {
+        $('body').css('background-color','green')
+    }
+    else if (click <= 15) {
+        $('body').css('background-color','blue')
+    }
+    else {
+        $('body').css('background-color','black')
+    }
 })
