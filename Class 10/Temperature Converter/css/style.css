@@ -1,0 +1,78 @@
+body {
+  background-image: url("../images/clouds 1.jpg");
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  font-family: "Lily Script One", cursive;
+  font-size: 70px;
+  text-decoration: underline;
+  text-decoration-color: darkblue;
+}
+
+#temperature {
+  padding: 60px, 0;
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+  justify-content: space-evenly;
+}
+
+#fahrenheit-label {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+#celsius-label {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+label {
+  padding: 30px;
+  font-size: 35px;
+  font-family: "Bad Script", cursive;
+  background: fixed;
+}
+
+#fahrenheit {
+  display: center;
+  text-align: center;
+  background: white;
+  font-size: 25px;
+  border: green solid 5px;
+}
+
+#celsius {
+  display: inline-block;
+  text-align: center;
+  background: white;
+  font-size: 25px;
+  border: purple solid 5px;
+}
+
+#calculate {
+  padding: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  padding: 25px;
+  text-align: center;
+  font-family: "ZCOOL XiaoWei", serif;
+  background: blue;
+  color: skyblue;
+}
