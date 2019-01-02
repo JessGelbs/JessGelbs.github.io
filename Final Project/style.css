@@ -1,0 +1,32 @@
+body {
+    background: slategray;
+}
+
+h1 {
+    background: black;
+    color: white;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    text-align: center;
+    margin: -70px;
+    font-size: 70px;
+    font-family: 'League Script', cursive;
+    font-weight: lighter;
+}
+
+#navigation {
+    padding: 40px;
+    display: inline-block;
+}
+
+ul {
+    padding: 40px;
+    display: inline;
+    text-decoration: none;
+}
