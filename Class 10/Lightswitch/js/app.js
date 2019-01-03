@@ -23,3 +23,5 @@ $(document).ready(function() {
 
 // give the #lightswitch element a background-color of white and a text color of black
 // give the body a background color of black;
+
+//can also use toggle class as $('#lightswitch').toggleClass('switch-off', 'switch-on');
