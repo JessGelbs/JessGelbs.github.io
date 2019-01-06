@@ -25,15 +25,20 @@ $("#clickme").click(function() {
 });
 
 function handleClick() {
-
-    let newItem = $('#item').val();
+  let newItem = $("#item").val();
 
   $("#clickme").click(function(appendItem) {
-    $("#list").append(`<li>${$("#item").val()}</li>`);
+    $("#list")
+      .append(`<li>${$("#item").val()}</li>`)
+      .focus("li");
   });
 
-  $('#clickme').click(function() {
-      $('#item').val('');
+  $("#clickme").click(function() {
+    $("#item").val("");
+  });
+
+  $('li').click(function(){
+      $(this).remove();
   });
 
 }
