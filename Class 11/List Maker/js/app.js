@@ -17,3 +17,23 @@
 // 4. handleClick should call a separate function, named appendItem, and pass it the variable newItem
 // 5. handleClick should then clear the text inside of #item
 // 6. Finally, write the function, appendItem (see above)
+
+$("#clickme").click(function() {
+  let newItem = $("#item").val();
+
+  handleClick(newItem);
+});
+
+function handleClick() {
+
+    let newItem = $('#item').val();
+
+  $("#clickme").click(function(appendItem) {
+    $("#list").append(`<li>${$("#item").val()}</li>`);
+  });
+
+  $('#clickme').click(function() {
+      $('#item').val('');
+  });
+
+}
