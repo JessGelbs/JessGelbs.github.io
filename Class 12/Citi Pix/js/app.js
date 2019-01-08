@@ -17,6 +17,9 @@
 
 
 
-$(document).ready(function() {
+$('#city-type').change(function() {
+    
+    let city = $('#city-type').val();
 
-});
+    $('body').removeClass().addClass(city);
+})
