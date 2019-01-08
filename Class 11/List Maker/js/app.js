@@ -24,21 +24,16 @@ $("#clickme").click(function() {
   handleClick(newItem);
 });
 
-function handleClick() {
-  let newItem = $("#item").val();
-
-  $("#clickme").click(function(appendItem) {
-    $("#list")
-      .append(`<li>${$("#item").val()}</li>`)
-      .focus("li");
-  });
-
-  $("#clickme").click(function() {
+function handleClick(newItem) {
+  if (!newItem) {
+    alert("Don't Forget to Add Your Item!");
+  } else {
+    $("#list").append(`<li>${newItem}</li>`);
+    $("item").focus();
     $("#item").val("");
-  });
+  }
 
-  $('li').click(function(){
-      $(this).remove();
+  $("li").click(function() {
+    $(this).remove();
   });
-
 }
