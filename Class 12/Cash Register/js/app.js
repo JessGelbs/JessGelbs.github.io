@@ -6,13 +6,19 @@
 // Instructions:
 // 1: Add a .submit event to the form; use an anonymous function to handle the sumbit
 // Inside the anonymous function:
-// 2: Remeber to prevent the default action on the form!
+// 2: Remeber to prevent the default action on the form!XX
 // 3: Create a variable to store the user input from #newEntry
 // 4: Remember to call parseFloat() on this variable! It needs to be a number.
 // 5: Append a new <tr></tr> to the <tbody id="entries"> containing two <td>'s, one of which contains the new variable: <tr><td></td><td>NEW VALUE</td></tr>
 // 6: Figure out a way to update the number in #total (Hint: look back at the calculator box example)
 // 7: Empty the input in #newEntry (clear it out)
+// Bonus: set it to empty if it doesn't allow numbers in the submission
 
-$(document).ready(function () {
+$("#entry").submit(function(event) {
+  event.preventDefault();
 
-})
+  let newItem = parseFloat($("#newEntry").val()).toFixed(2);
+  $("#entries").before(`<tr><td></td><td><tr><td></td><td>${newItem}</td></tr></td></tr`);
+  sum = sum+newItem  
+  $('#total').html(`$ ${sum}`);
+});
