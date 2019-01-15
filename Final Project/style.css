@@ -4,18 +4,24 @@ html {
 }
 
 #navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   font-size: 25px;
   font-family: "Rouge Script", cursive;
   background: black;
   color: white;
-  padding: 5px;
+  height: 45px;
 }
 
 #navi {
   list-style-type: none;
   display: flex;
-  flex-direction: row;
   justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  margin: 6px;
 }
 
 a {
@@ -33,6 +39,7 @@ h1 {
   font-weight: lighter;
   text-align: center;
   margin: 0;
+  padding-top: 75px;
 }
 
 h3 {
