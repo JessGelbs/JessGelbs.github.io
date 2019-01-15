@@ -1,16 +1,6 @@
-/*FRONT PAGE CSS*/
-
 html {
-  background-image: url(images/Header1.JPG);
+  background: url(images/Header1.JPG) fixed;
   background-size: cover;
-}
-
-img {
-  position: fixed behind;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  min-height: 100%;
 }
 
 #navigation {
@@ -21,7 +11,7 @@ img {
   padding: 5px;
 }
 
-ul {
+#navi {
   list-style-type: none;
   display: flex;
   flex-direction: row;
@@ -53,12 +43,24 @@ h3 {
   color: red;
 }
 
-/*ABOUT CSS*/
-
-p {
-    background: black;
-    color: white;
-    display: flex;
-    justify-content: center;
+#container {
+    padding: 150px 10px;
 }
 
+h4 {
+    background: slategray;
+    color: black;
+    font-family: "Rouge Script", cursive;
+    font-size: 40px;
+}
+
+#section {
+  background: black;
+  color: white;
+}
+
+#faq {
+  background: black;
+  color: white;
+  list-style: none;
+}
