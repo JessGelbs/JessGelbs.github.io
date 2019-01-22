@@ -1,0 +1,26 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Pacifico', cursive;
+}
+
+video {
+	width: 100%;
+}
+
+.box {
+	display: flex;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+}
+
+
+h1 {
+	position: absolute;
+	color: lightcoral;
+	font-size: 100px;
+	text-decoration: underline;
+	text-decoration-color: lightskyblue;
+	opacity: 0.6;
+}
