@@ -1,17 +1,7 @@
 body {
   margin: 0;
   background: url(images/Header1.JPG) fixed;
-  background-size: cover; 
-  /* -moz-filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
-  -o-filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
-  -webkit-filter: grayscale(100%);
-  filter: gray;
-  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); */
-
-}
-
-html {
-
+  background-size: cover;
 }
 
 #navigation {
@@ -42,7 +32,7 @@ h1 {
   font-weight: lighter;
   text-align: center;
   margin: 0;
-  padding-top: 75px;  
+  padding-top: 75px;
   line-height: 1;
   position: relative;
   z-index: 20;
@@ -71,14 +61,13 @@ h3 {
   grid-template-columns: 1fr 1fr;
   /* grid-auto-rows: 25%;
   flex-direction: row; */
-  background: rgba(0,0,0,.5)
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .artist {
   list-style: none;
   color: white;
   position: relative;
-
 }
 
 .artist-name {
@@ -93,14 +82,13 @@ img {
   display: block;
   margin: 0 auto;
   border: 1.5px solid black;
-
 }
 
 h4 {
-    background: slategray;
-    color: black;
-    font-family: "Rouge Script", cursive;
-    font-size: 40px;
+  background: slategray;
+  color: black;
+  font-family: "Rouge Script", cursive;
+  font-size: 40px;
 }
 
 #section {
