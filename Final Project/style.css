@@ -84,11 +84,11 @@ img {
   border: 1.5px solid black;
 }
 
-h4 {
-  background: slategray;
-  color: black;
+#title {
+  color: white;
   font-family: "Rouge Script", cursive;
   font-size: 40px;
+  text-align: center;
 }
 
 #section {
@@ -97,7 +97,6 @@ h4 {
 }
 
 #footer {
-  /* position: fixed; */
   bottom: 0;
   left: 0;
   right: 0;
