@@ -21,12 +21,9 @@ function nextImage () {
     }
   }
 
-function prevImage () {
-    if (imageIndex > images.length +1) {
-        imageIndex ;
-        $('#image-to-vote-on').attr('src', image[imageIndex]);
-    } else {
-        imageIndex = 0;
-        $('#image-to-vote-on').attr('src', image[imageIndex]);
+  function prevImage() {
+    if (imageIndex > 0) {
+      imageIndex--;
+      $("#image-to-vote-on").attr("src", images[imageIndex]);
     }
-}
+  }
