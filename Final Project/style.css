@@ -135,10 +135,13 @@ h3 {
 
 .tattoos_container{
   position: relative;
-	display: flex;
-	height: 130px;
+  display: flex;
+  flex-direction: row;
+  height: 130px;
+  width: 400px;
   clear: both;
   padding-top: 45px;
+  overflow-x: scroll;
 }
 
 .tattoo_pic {
