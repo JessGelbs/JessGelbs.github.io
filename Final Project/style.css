@@ -19,7 +19,7 @@
 
 #navi {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   margin: 6px;
 }
 
@@ -130,26 +130,45 @@ h3 {
 }
 
 #artist_profile {
-  background: black;
+  background-image: linear-gradient(black, red);
+}
+
+#undead {
+  position: fixed;
+  font-size: 50px;
+  color: white;
+  font-family: "Rouge Script", cursive;
+}
+
+.wrap {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
 }
 
 .tattoos_container{
-  position: relative;
   display: flex;
   flex-direction: row;
-  height: 130px;
-  width: 400px;
-  clear: both;
-  padding-top: 45px;
+  height: 250px;
+  width: 700px;
   overflow-x: scroll;
 }
 
 .tattoo_pic {
-  float: left;
-	margin: 5px;
-	height: 100px;
-	width: 100px;
-	display: block;
-	cursor: pointer;
+  margin: 5px;
+	height: 200px;
+	width: 200px;
+}
+
+.biggie {
+  display: flex;
+  justify-content: center;
+}
+
+.bigimage {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  height: 800px;
+  width: 800px; 
 }
 
