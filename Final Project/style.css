@@ -19,6 +19,7 @@
 #navi {
   display: none;
   justify-content: flex-end;
+  padding: 35px;
 }
 
 h1 {
@@ -60,13 +61,15 @@ h3 {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;  
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
 .artist {
   list-style: none;
   color: white;
   background: rgba(0, 0, 0, 0.5);
-
+  padding: 45px;
 }
 
 .artist-name {
@@ -117,6 +120,7 @@ h3 {
   font-size: 50px;
   padding-left: 10px;
   padding-right: 10px;
+  color: white;
 }
 
 
@@ -133,22 +137,23 @@ h3 {
 .wrap {
   display: flex;
   justify-content: center;
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 .tattoos_container{
   display: flex;
   flex-direction: row;
-  height: 250px;
-  width: 700px;
-  overflow-x: scroll;
+  width: 647px;
+  overflow-x:scroll;     
+  white-space: nowrap;
 }
 
 .tattoo_pic {
-  margin: 5px;
-	height: 200px;
-  width: 200px;
+	height: 100px;
+  width: 100px;
   cursor: pointer;
+  margin: 5px;
+  padding: 5px;
 }
 
 .biggie {
@@ -157,9 +162,9 @@ h3 {
 }
 
 .bigimage {
-  padding-top: 25px;
-  padding-bottom: 25px;
   height: 800px;
-  width: 800px; 
+  width: 800px;
+  padding-top: 5px;
+  padding-bottom: 25px; 
 }
 
