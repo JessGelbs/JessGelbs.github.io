@@ -5,7 +5,6 @@
 }
 
 #navigation {
-  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -133,7 +132,6 @@ h3 {
 }
 
 #undead {
-  position: fixed;
   font-size: 50px;
   color: white;
   font-family: "Rouge Script", cursive;
