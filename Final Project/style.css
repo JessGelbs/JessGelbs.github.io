@@ -14,12 +14,18 @@
   color: white;
   height: 45px;
   text-align: right;
+  display: flex;
+  justify-content: flex-end;
 }
 
 #navi {
   display: none;
   justify-content: flex-end;
-  padding: 35px;
+}
+
+.menu-button {
+  padding-top: 10px;
+  padding-right: 25px;
 }
 
 h1 {
