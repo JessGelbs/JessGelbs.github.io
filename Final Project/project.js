@@ -4,5 +4,5 @@ $(document).ready (function(){
 
 $('.tattoo_pic').click(function(){
     const src = $(this).attr('src');
-    $('#bigimage').attr('src', src);
+    $('.bigimage').attr('src', src);
 });
