@@ -9,6 +9,6 @@ $('.tattoo_pic').click(function(){
 
 console.log("hello");
 
-$('.menu-button').on('click',function(){
+$('.menu-button').click(function(){
     console.log('BUTTON!');
 });
