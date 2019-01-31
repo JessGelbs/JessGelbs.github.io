@@ -17,7 +17,7 @@
 }
 
 #navi {
-  display: flex;
+  display: none;
   justify-content: flex-end;
 }
 
@@ -51,20 +51,22 @@ h3 {
 }
 
 #container {
-  padding-left: 65px;
-  padding-right: 65px;
   display: flex;
+  flex-direction: row;
 }
 
 #artists {
-  display: grid;
-  grid-template-columns: 4fr 4fr;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;  
 }
 
 .artist {
   list-style: none;
   color: white;
-  position: relative;
+  background: rgba(0, 0, 0, 0.5);
+
 }
 
 .artist-name {
@@ -75,11 +77,9 @@ h3 {
 }
 
 #profile {
+  height: 350px;
   width: 350px;
-  display: block;
-  padding: 25px;
   border: 1.5px solid black;
-  background: rgba(0, 0, 0, 0.5);
 }
 
 #title {
@@ -98,23 +98,25 @@ h3 {
 }
 
 #footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   bottom: 0;
   left: 0;
   right: 0;
   background: black;
   color: white;
-  display: flex;
-  justify-content: flex-start;
 }
 
-#connect {
-  padding: 20px;
-  margin: 0;
+#footer-title {
+  text-align: center;
+
 }
 
-.fab {
-  height: 10px;
-  width: 10px;
+.footer-icon {
+  font-size: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 
@@ -159,9 +161,5 @@ h3 {
   padding-bottom: 25px;
   height: 800px;
   width: 800px; 
-}
-
-.footer-icon {
-  font-size: 50px;
 }
 
