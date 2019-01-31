@@ -53,9 +53,7 @@ h3 {
 #container {
   padding-left: 65px;
   padding-right: 65px;
-  grid-template-columns: 4fr;
-  grid-auto-rows: 25%;
-  text-align: center;
+  display: flex;
 }
 
 #artists {
@@ -105,6 +103,8 @@ h3 {
   right: 0;
   background: black;
   color: white;
+  display: flex;
+  justify-content: flex-start;
 }
 
 #connect {
