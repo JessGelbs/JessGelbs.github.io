@@ -6,12 +6,16 @@ $(".meme-form").submit(function() {
   let memeInput = $(".meme-input").val();
 
   var xhr = $.get(
-    "http://api.giphy.com/v1/gifs/search?q=ryan+gosling&api_key=TtGNnu1sbhfA0ur1ICuudu3A3s9OifJO&limit`=5");
+    `http://api.giphy.com/v1/gifs/search?q=${memeInput}&api_key=TtGNnu1sbhfA0ur1ICuudu3A3s9OifJO&limit=5`);
   xhr.done(function(data) {
-    console.log("success got data", data);
+    console.log(data.data);
+    data.data.forEach(function(element, index){
+      $('.meme-list').append(`<li><video src= '${element.images.looping.mp4}' type="video/mp4" autoplay></video></li>`);
+      console.log(element);
+    })
   });
 
-  console.log(memeInput);
+  
 });
 
 // Do all of the following inside of this submit handler function...

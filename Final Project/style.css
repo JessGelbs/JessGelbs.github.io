@@ -51,14 +51,16 @@ h3 {
 }
 
 #container {
-  grid-template-columns: 2fr;
+  padding-left: 65px;
+  padding-right: 65px;
+  grid-template-columns: 4fr;
   grid-auto-rows: 25%;
+  text-align: center;
 }
 
 #artists {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  background: rgba(0, 0, 0, 0.5);
+  grid-template-columns: 4fr 4fr;
 }
 
 .artist {
@@ -70,24 +72,26 @@ h3 {
 .artist-name {
   display: block;
   text-align: center;
-  border: 1px solid red;
-  font-size: 30px;
+  font-size: 40px;
+  padding: 15px;
 }
 
 #profile {
   width: 350px;
   display: block;
-  margin: 0 auto;
+  padding: 25px;
   border: 1.5px solid black;
+  background: rgba(0, 0, 0, 0.5);
 }
 
 #title {
   color: white;
   font-family: "Rouge Script", cursive;
-  font-size: 40px;
+  font-size: 70px;
   text-align: center;
   position: relative;
   top: 50px;
+
 }
 
 #section {
@@ -113,19 +117,6 @@ h3 {
   width: 10px;
 }
 
-.overlay {
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  width: 100%;
-  border: 10px solid pink;
-  display: none;
-}
-
-#profile:hover .overlay {
-  display: block;
-}
 
 #artist_profile {
   background-image: linear-gradient(black, red);
@@ -168,5 +159,9 @@ h3 {
   padding-bottom: 25px;
   height: 800px;
   width: 800px; 
+}
+
+.footer-icon {
+  font-size: 50px;
 }
 
