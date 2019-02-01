@@ -8,5 +8,5 @@ $('.tattoo_pic').click(function(){
 });
 
 $('.menu-button').click(function(){
-    $('#navi').show("fast");
+    $('#navi').show("fast"); 
 });
