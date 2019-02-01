@@ -7,8 +7,6 @@ $('.tattoo_pic').click(function(){
     $('.bigimage').attr('src', src);
 });
 
-console.log("hello");
-
 $('.menu-button').click(function(){
-    console.log('BUTTON!');
+    $('#navi').show("fast");
 });
