@@ -18,9 +18,16 @@
   justify-content: flex-end;
 }
 
+#dropdown-menu{
+  position: relative;
+  right: 50px;
+
+}
+
 #navi {
+  display: flex;
+  justify-content: flex-start;
   display: none;
-  justify-content: center;
 
 }
 
