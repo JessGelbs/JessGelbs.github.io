@@ -11,6 +11,13 @@ $('.menu-button').click(function(){
     $('#navi').toggle("fast"); 
 });
 
-$("form").submit(function(){
-    alert("Submitted");
+$("form").submit(function(event){
+    let fname = $('#fname').val();
+    let lname = $('#lname').val();
+    let subject = $('#subject').val();
+    
+    if (fname === ''|| lname === ''|| subject === '') {
+        alert('You must enter a value!');
+        event.preventDefault();
+    }
   });
