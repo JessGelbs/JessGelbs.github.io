@@ -10,3 +10,7 @@ $('.tattoo_pic').click(function(){
 $('.menu-button').click(function(){
     $('#navi').toggle("fast"); 
 });
+
+$("form").submit(function(){
+    alert("Submitted");
+  });
