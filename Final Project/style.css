@@ -20,20 +20,22 @@
 
 #dropdown-menu{
   position: relative;
-  right: 50px;
-
+  top: 20px;
+  right: 30px;
+  /* background: rgba(128, 128, 128, 0.7); */
 }
 
 #navi {
-  display: flex;
-  justify-content: flex-start;
+  list-style: none;
   display: none;
-
+  background: rgba(128, 128, 128, 0.7);
+  padding-right: 60px;
 }
 
 .menu-button {
   padding-top: 10px;
   padding-right: 25px;
+  position: absolute;
 }
 
 h1 {
