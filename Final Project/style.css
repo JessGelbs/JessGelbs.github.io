@@ -239,12 +239,6 @@ input[type="submit"]:hover {
   padding: 100px;
 }
 
-.location {
-  margin: 0;
-  background: url(images/Header1.JPG) fixed;
-  background-size: cover;
-}
-
 @media (min-width: 375px) {
   html {
     margin: none;
@@ -288,11 +282,5 @@ input[type="submit"]:hover {
     padding: none;
     margin-top: 6px;
     margin-bottom: 16px;
-  }
-
-  .location {
-    margin: 0;
-    background: url(images/Header1.JPG) fixed;
-    background-size: cover;
   }
 }
