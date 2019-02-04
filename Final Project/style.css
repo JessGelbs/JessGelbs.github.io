@@ -5,7 +5,6 @@
 }
 
 #navigation {
-  position: relative;
   top: 0;
   left: 0;
   right: 0;
@@ -17,10 +16,9 @@
   text-align: right;
   display: flex;
   justify-content: flex-end;
-  z-index: 100;
 }
 
-#dropdown-menu {
+#dropdown-menu{
   position: relative;
   top: 20px;
   right: 30px;
@@ -239,7 +237,7 @@ input[type="submit"]:hover {
   padding: 100px;
 }
 
-@media (min-width: 375px) {
+/* @media (max-width: 375px) {
   html {
     margin: none;
   }
@@ -283,4 +281,4 @@ input[type="submit"]:hover {
     margin-top: 6px;
     margin-bottom: 16px;
   }
-}
+} */
