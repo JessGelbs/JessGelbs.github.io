@@ -19,7 +19,7 @@
   z-index: 100;
 }
 
-#dropdown-menu{
+#dropdown-menu {
   position: relative;
   top: 20px;
   right: 30px;
@@ -34,7 +34,7 @@
   color: white;
 }
 
-li{
+li {
   color: white;
 }
 
@@ -93,7 +93,7 @@ h3 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly;  
+  justify-content: space-evenly;
   padding-left: 200px;
   padding-right: 200px;
 }
@@ -145,7 +145,6 @@ h3 {
 
 #footer-title {
   text-align: center;
-
 }
 
 .footer-icon {
@@ -172,16 +171,16 @@ h3 {
   padding-top: 50px;
 }
 
-.tattoos_container{
+.tattoos_container {
   display: flex;
   flex-direction: row;
   width: 647px;
-  overflow-x:scroll;     
+  overflow-x: scroll;
   white-space: nowrap;
 }
 
 .tattoo_pic {
-	height: 100px;
+  height: 100px;
   width: 100px;
   cursor: pointer;
   margin: 5px;
@@ -197,7 +196,7 @@ h3 {
   height: 800px;
   width: 800px;
   padding-top: 5px;
-  padding-bottom: 25px; 
+  padding-bottom: 25px;
 }
 
 .contact-us {
@@ -206,18 +205,20 @@ h3 {
   background-size: cover;
 }
 
-input[type=text], select, textarea {
-  width: 100%; 
-  padding: 12px;  
-  border: 1px solid #ccc; 
-  border-radius: 4px; 
-  box-sizing: border-box; 
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
 }
 
-input[type=submit] {
+input[type="submit"] {
   background-color: grey;
   color: white;
   padding: 12px 20px;
@@ -226,7 +227,7 @@ input[type=submit] {
   cursor: pointer;
 }
 
-input[type=submit]:hover {
+input[type="submit"]:hover {
   background-color: red;
 }
 
@@ -244,7 +245,7 @@ input[type=submit]:hover {
 }
 
 @media (min-width: 375px) {
-  html{
+  html {
     margin: none;
   }
   h1 {
@@ -253,7 +254,7 @@ input[type=submit]:hover {
     margin: 0;
     padding-top: 75px;
   }
-  
+
   h3 {
     padding-left: 35px;
     font-size: 150px;
@@ -264,166 +265,33 @@ input[type=submit]:hover {
   }
 
   #about {
-   padding: 45px;
-  }
-  
-  #container {
-    display: flex;
-    flex-direction: row;
-  }
-  
-  #artists {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;  
-    padding-left: 200px;
-    padding-right: 200px;
-  }
-  
-  .artist {
-    list-style: none;
-    color: white;
-    background: rgba(0, 0, 0, 0.5);
+    position: relative;
     padding: 45px;
   }
-  
-  .artist-name {
-    display: block;
-    text-align: center;
-    font-size: 40px;
-    padding: 15px;
-  }
-  
-  #profile {
-    height: 350px;
-    width: 350px;
-    border: 1.5px solid black;
-  }
-  
-  #title {
-    color: white;
-    font-family: "Rouge Script", cursive;
-    font-size: 70px;
-    text-align: center;
-    position: relative;
-    top: 50px;
-  }
-  
-  #section {
-    background: black;
-    color: white;
-  }
-  
-  #footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: black;
-    color: white;
-  }
-  
-  #footer-title {
-    text-align: center;
-  
-  }
-  
-  .footer-icon {
-    font-size: 50px;
-    padding-left: 10px;
-    padding-right: 10px;
-    color: white;
-  }
-  
-  #artist_profile {
-    margin: 0;
-    background-image: linear-gradient(black, red);
-  }
-  
-  #undead {
-    font-size: 50px;
-    color: white;
-    font-family: "Rouge Script", cursive;
-  }
-  
-  .wrap {
-    display: flex;
-    justify-content: center;
-    padding-top: 50px;
-  }
-  
-  .tattoos_container{
-    display: flex;
-    flex-direction: row;
-    width: 647px;
-    overflow-x:scroll;     
-    white-space: nowrap;
-  }
-  
-  .tattoo_pic {
-    height: 100px;
-    width: 100px;
-    cursor: pointer;
-    margin: 5px;
-    padding: 5px;
-  }
-  
+
   .biggie {
     display: flex;
     justify-content: center;
   }
-  
+
   .bigimage {
-    height: 800px;
-    width: 800px;
-    padding-top: 5px;
-    padding-bottom: 25px; 
+    height: 500px;
+    width: 500px;
   }
-  
-  .contact-us {
-    margin: 0;
-    background: url(images/Header1.JPG) fixed;
-    background-size: cover;
-  }
-  
-  input[type=text], select, textarea {
-    width: 100%; 
-    padding: 12px;  
-    border: 1px solid #ccc; 
-    border-radius: 4px; 
-    box-sizing: border-box; 
+
+  input[type="text"],
+  select,
+  textarea {
+    margin-left: 1px;
+    width: 500px;
+    padding: none;
     margin-top: 6px;
     margin-bottom: 16px;
-    resize: vertical;
   }
-  
-  input[type=submit] {
-    background-color: grey;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  input[type=submit]:hover {
-    background-color: red;
-  }
-  
-  .contact-form {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    margin: 100px;
-    padding: 100px;
-  }
-  
+
   .location {
     margin: 0;
     background: url(images/Header1.JPG) fixed;
     background-size: cover;
   }
-  
 }
