@@ -72,6 +72,17 @@ h3 {
   display: none;
 }
 
+#about {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 135px;
+  padding-right: 135px;
+  font-size: 45px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
 #container {
   display: flex;
   flex-direction: row;
@@ -231,3 +242,4 @@ input[type=submit]:hover {
   background-size: cover;
 }
 
+@media
