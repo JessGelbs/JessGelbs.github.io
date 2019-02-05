@@ -1,0 +1,286 @@
+.frontpage {
+  margin: 0;
+  background: url(images/Header1.JPG) fixed;
+  background-size: cover;
+}
+
+#navigation {
+  top: 0;
+  left: 0;
+  right: 0;
+  font-size: 25px;
+  font-family: "Rouge Script", cursive;
+  background: rgba(128, 128, 128, 0.7);
+  color: white;
+  height: 45px;
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  z-index: 30;
+  position: relative;
+}
+
+#dropdown-menu{
+  position: relative;
+  top: 20px;
+  right: 30px;
+  color: white;
+}
+
+#navi {
+  list-style: none;
+  display: none;
+  background: rgba(128, 128, 128, 0.7);
+  padding-right: 60px;
+  color: white;
+}
+
+li{
+  color: white;
+}
+
+.menu-button {
+  padding-top: 10px;
+  padding-right: 25px;
+  position: absolute;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Rouge Script", cursive;
+  font-size: 250px;
+  font-weight: lighter;
+  text-align: center;
+  margin: 0;
+  padding-top: 75px;
+  line-height: 1;
+  position: relative;
+  z-index: 20;
+}
+
+h3 {
+  text-align: center;
+  margin: 0;
+  font-size: 250px;
+  font-family: "Nosifer", cursive;
+  color: red;
+  line-height: 1;
+  position: relative;
+  bottom: 100px;
+  z-index: 10;
+  display: none;
+}
+
+#about {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 135px;
+  padding-right: 135px;
+  font-size: 45px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+}
+
+#artists {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;  
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.artist {
+  list-style: none;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 45px;
+}
+
+.artist-name {
+  display: block;
+  text-align: center;
+  font-size: 40px;
+  padding: 15px;
+}
+
+#profile {
+  height: 350px;
+  width: 350px;
+  border: 1.5px solid black;
+}
+
+#title {
+  color: white;
+  font-family: "Rouge Script", cursive;
+  font-size: 70px;
+  text-align: center;
+  position: relative;
+  top: 50px;
+}
+
+#section {
+  background: black;
+  color: white;
+}
+
+#footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: black;
+  color: white;
+}
+
+#footer-title {
+  text-align: center;
+
+}
+
+.footer-icon {
+  font-size: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+}
+
+#artist_profile {
+  margin: 0;
+  background-image: linear-gradient(black, red);
+}
+
+#undead {
+  font-size: 50px;
+  color: white;
+  font-family: "Rouge Script", cursive;
+}
+
+.wrap {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.tattoos_container{
+  display: flex;
+  flex-direction: row;
+  width: 647px;
+  overflow-x:scroll;     
+  white-space: nowrap;
+}
+
+.tattoo_pic {
+	height: 100px;
+  width: 100px;
+  cursor: pointer;
+  margin: 5px;
+  padding: 5px;
+}
+
+.biggie {
+  display: flex;
+  justify-content: center;
+}
+
+.bigimage {
+  height: 800px;
+  width: 800px;
+  padding-top: 5px;
+  padding-bottom: 25px; 
+}
+
+.contact-us {
+  margin: 0;
+  background: url(images/Header1.JPG) fixed;
+  background-size: cover;
+}
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px;  
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: grey;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: red;
+}
+
+.contact-form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  margin: 100px;
+  padding: 100px;
+}
+
+ @media (max-width: 375px) {
+  html {
+    margin: none;
+  }
+  h1 {
+    padding-left: 420px;
+    font-size: 150px;
+    margin: 0;
+    padding-top: 75px;
+  }
+
+  h3 {
+    padding-left: 35px;
+    font-size: 150px;
+  }
+
+  #title {
+    padding-left: 350px;
+  }
+
+  #about {
+    position: relative;
+    padding: 45px;
+  }
+
+  .biggie {
+    display: flex;
+    justify-content: center;
+  }
+
+  .bigimage {
+    height: 500px;
+    width: 500px;
+  }
+
+  input[type="text"],
+  select,
+  textarea {
+    margin-left: 1px;
+    width: 500px;
+    padding: none;
+    margin-top: 6px;
+    margin-bottom: 16px;
+  }
+} 
+

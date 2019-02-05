@@ -1,0 +1,61 @@
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="../style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="contact-us">
+    <div id="navigation">
+        <i class="fas fa-bars menu-button"></i>
+      <div id="dropdown-menu">
+        <ul id="navi">
+          <li><a href="../frontpage.html">Home</a></li>
+          <li><a href="drop-down-menu/contact-us.html">Contact Us</a></li>
+      </ul>
+    </div>
+    </div>
+    <div class="contact-form">
+        <form>
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="question-options">Question Type</label>
+          <select id="question" name="question">
+            <option value="tattoo-appointment">Tattoo Appointment</option>
+            <option value="tattoo-artists">Tattoo Artists</option>
+            <option value="other-questions">Other Questions</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+      <div id="footer">
+        <p id="footer-title">
+          <a href="https://www.facebook.com/UndeadInkNy/"
+            ><i class="fab fa-facebook footer-icon"></i></a
+          >Facebook
+        </p>
+        <p id="footer-title">
+          <a href="https://www.instagram.com/undeadink/?hl=en"
+            ><i class="fab fa-instagram footer-icon"></i></a
+          >Instagram
+        </p>
+      </div>
+      <script src="../jquery-3.3.1.min.js"></script>
+      <script src="../project.js"></script>
+    </body>
+    
