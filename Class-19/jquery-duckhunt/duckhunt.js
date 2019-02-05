@@ -53,7 +53,12 @@ setInterval(() => {
   // 11. BOOM. Attach a "click" handler that adds the "shot" class to
   //     the duck when you click on it!
 
-  $(duck).onClick()
+  duck.click(function(){
+    duck.addClass('shot');
+    setTimeout(function(){
+      duck.removeClass
+    })
+  })
 
   // 12. After a duck has been clicked on, remove it from the DOM after
   //     a short delay (1 second)
