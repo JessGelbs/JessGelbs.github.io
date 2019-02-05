@@ -8,6 +8,8 @@ jQuery(function() {
 
   // 1. Can you create a <div> with the class "duck" and name it "duck"
 
+  let duck = $('<div class="duck"></div>')
+
   // 2. Next, use setInterval to toggle the "flap" class on the duck every 250 ms (1/4 second)
 
   // 3. Fantastic!  Now, let's move the duck using CSS "top" and "left"
