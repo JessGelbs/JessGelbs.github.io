@@ -9,13 +9,23 @@ jQuery(function() {
   // 1. Can you create a <div> with the class "duck" and name it "duck"
 
   let duck = $('<div class="duck"></div>')
+  $('body').append(duck);
 
   // 2. Next, use setInterval to toggle the "flap" class on the duck every 250 ms (1/4 second)
+  // setInterval(function() {
+  //   console.log('duck🦆')
+  //  }, 3000)
 
+   setInterval(() => {
+     duck.toggleClass('flap')}, 250);
   // 3. Fantastic!  Now, let's move the duck using CSS "top" and "left"
-
+duck.css('left',Math.random()*window.innerWidth - 115);
+duck.css('top', Math.random()*window.innerHeight - 115);
   // 4. Try making the duck move to a different location after 1 second
-
+setInterval(() => {
+  duck.css('left', Math.random() * window.innerWidth - 115);
+  duck.css('top', Math.random() * window.innerHeight - 115);
+}, 1000);
   // 5. Congratulations! Move on to part 2!
 
   // ---------------------------- PART 2 ---------------------------------
@@ -42,6 +52,8 @@ jQuery(function() {
 
   // 11. BOOM. Attach a "click" handler that adds the "shot" class to
   //     the duck when you click on it!
+
+  $(duck).onClick()
 
   // 12. After a duck has been clicked on, remove it from the DOM after
   //     a short delay (1 second)
