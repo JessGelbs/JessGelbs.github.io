@@ -60,8 +60,20 @@
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
 <script>
+  console.log($('audio').data())
+  
   $(window).keydown(function(event){
-    console.log("key down", event.keyCode);
+    // console.log("key down", event.keyCode);
+    const audio = $(`audio[data-key="${event.keyCode}"]`)[0];
+
+    const key = $(`div[data-key="${event.keyCode}"]`)[0];
+
+    if(!audio) return;
+
+    console.log(audio);
+    audio.currentTime = 0;
+    audio.play();
+    key.addClass('playing');
   })
 </script>
 
