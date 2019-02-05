@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>JS Drum Kit</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
 
@@ -57,26 +59,35 @@
   <audio data-key="75" src="sounds/tom.wav"></audio>
   <audio data-key="76" src="sounds/tink.wav"></audio>
 
-<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
-<script>
-  console.log($('audio').data())
-  
-  $(window).keydown(function(event){
-    // console.log("key down", event.keyCode);
-    const audio = $(`audio[data-key="${event.keyCode}"]`)[0];
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
 
-    const key = $(`div[data-key="${event.keyCode}"]`)[0];
+  <script>
+    console.log($('audio').data())
 
-    if(!audio) return;
+    $(window).keydown(function (event) {
+      // console.log('🔑 down', event.keyCode);
+      const audio = $(`audio[data-key="${event.keyCode}"]`)[0];
+      const key = $(`div[data-key="${event.keyCode}"]`);
 
-    console.log(audio);
-    audio.currentTime = 0;
-    audio.play();
-    key.addClass('playing');
-  })
-</script>
+      if (!audio) return;
+
+      audio.currentTime = 0;
+      audio.play();
+      key.addClass('playing');
+    })
+
+    const keys = $('.key');
+
+    Array.from(keys).forEach(function (key) {
+      key.addEventListener('transitionend', function(event){
+        $(event.target).removeClass('playing');
+      })
+    })
+
+  </script>
 
 
 </body>
+
 </html>
